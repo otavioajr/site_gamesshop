@@ -1,0 +1,71 @@
+* { /* Resetando todos os estilos padrão da página */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container { /* Definindo o padrão dos containers a ser criado na página*/
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header { /* Estilizando o cabeçalho com a cor do texto e a cor de fundo*/
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+header nav li,
+.brands-list li { /* Definindo o estilo de apresenatação do menu e a margem para separar os elementos a esquerda */
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+header nav li a { /* Estilizando os links do menu com a cor do texto, removendo o sublinhado e aumentando a fonte */
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header .container,
+section .container { /* Estilizando os containers específicos */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img { /* Definindo o tamanho dos logos das empresas */
+    height: 24px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #182C61;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
